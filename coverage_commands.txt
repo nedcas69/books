@@ -1,0 +1,8 @@
+coverage run --source='.' manage.py test . #инициализарует тесты
+
+coverage report # показывает на консоле покрытие тестов проекта
+
+coverage html # записывает всё показания на html 
+
+
+psql -Upostgres -hlocalhost -dbooks_db # psql zaprosy
