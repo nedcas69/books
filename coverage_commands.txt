@@ -6,3 +6,6 @@ coverage html # записывает всё показания на html
 
 
 psql -Upostgres -hlocalhost -dbooks_db # psql zaprosy
+
+
+python manage.py test . # ili store vmesto .
